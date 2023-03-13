@@ -41,6 +41,8 @@ mv ${repo}-labels$((page - 1)).json ${org}-${repo}-incoming.json
 mlr --ijson --ocsv cat ${org}-${repo}-incoming.json > ${org}-${repo}.csv
 rm ${org}-${repo}-incoming.json
 
-# Edit the CSV
-# Run 'mlr --icsv --ojson cat org-repo.csv > org-repo-incoming.json
-# Run 'jq . -s org-repo-incoming.json > org-repo.json
+# Next steps:
+# 1. Edit the CSV
+# 2. Run 'mlr --icsv --ojson cat org-repo.csv > org-repo-incoming.json
+# 3. Run 'jq . -s org-repo-incoming.json > org-repo.json
+# 4. Run the push-labels.sh script
