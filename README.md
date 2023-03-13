@@ -1,1 +1,3 @@
-# shared-scripts
+# Scripts
+
+Some useful scripts
